@@ -1,0 +1,51 @@
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50vh;
+    max-width: 200px;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    .closeMenuButton{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 25px;
+        height: 25px;
+        background-color: #1d1d1d;
+        border: 2px solid #eee;
+        border-radius: 7px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        color: #eee;
+        font-size: 20px;
+        line-height: 1;
+        &:hover{
+            cursor: pointer;
+            background-color: #353535;
+        }
+    }
+
+    ul{
+        width: 70%;
+        margin-top: 10px;
+        margin-left: 10px;
+        list-style: none;
+        li{
+            margin-top: 20px;
+            padding: 5px;
+            border-radius: 7px;
+            &:hover{
+                cursor: pointer;
+                background-color: #353535;
+            }
+            a{
+                color: #eee;
+                font-size: 16px;
+            }
+        }
+    }
+}

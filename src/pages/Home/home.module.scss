@@ -1,0 +1,28 @@
+.background{
+    width: 100vw;
+    height: 100vh;
+    background-color: #1d1d1d;
+    .testText{
+        position: absolute;
+        top: 50vh;
+        left: 50vw;
+        transform: translate(-50%, -50%);
+
+        color: #eee;
+        font-size: 24px;
+        button{
+            color: #eee;
+            background-color: transparent;
+            border: 2px solid #eee;
+            border-radius: 7px;
+            padding: 5px;
+            &:hover{
+                cursor: pointer;
+                background-color: #353535;
+            }
+        }
+        
+        
+
+    }
+}
